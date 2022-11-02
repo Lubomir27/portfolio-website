@@ -1,6 +1,4 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
 import timisCooking from "../assets/timis-cooking.png";
 import medicPage from "../assets/medic-page.png";
 import mobis from "../assets/mobis.png";
