@@ -14,7 +14,13 @@
     @apply cursor-pointer;
   }
 }
-
+.logo {
+  margin-left: -32px;
+}
+.rotation-90:hover span {
+  transform: rotate(90deg) translateX(-8px) translateY(-8px);
+  transition-duration: 400ms;
+}
 .home-bg {
   background-image: url(workspace-gf9c9d345e_1280.jpg);
   background-repeat: no-repeat;

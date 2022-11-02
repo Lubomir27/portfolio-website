@@ -6,7 +6,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen home-bg">
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-        <p className="text-[#fa3939] text-2xl">Hi my name is</p>
+        <p className=" text-gray-300 text-2xl">Hi my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#F6ECCC]">
           Ľubomír Bučko
         </h1>
@@ -20,9 +20,9 @@ const Home = () => {
         </p>
         <div>
           <Link to="work" smooth={true} duration={800}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:border-pink-600 hover:bg-pink-600 ">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center  hover:bg-gray-300 hover:text-black rotation-90">
               View Work
-              <span className="group-hover:rotate-90 duration-300">
+              <span>
                 <HiArrowNarrowRight className="ml-4" />
               </span>
             </button>

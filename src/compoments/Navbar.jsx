@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlinePhone } from "react-icons/ai";
-import Logo from "../assets/Ľ&B.png";
+import Logo from "../assets/log.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -12,7 +12,12 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#29242a] text-gray-300">
       <div>
-        <img src={Logo} alt="logo" style={{ width: "90px" }} />
+        <img
+          src={Logo}
+          alt="logo"
+          style={{ width: "175px" }}
+          className="logo"
+        />
       </div>
 
       {/* menu */}
@@ -103,7 +108,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className=" hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/%C4%BEubom%C3%ADr-bu%C4%8Dko-bb9892254/"
@@ -111,7 +116,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/Lubomir27"
@@ -119,7 +124,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:lubomir.bucko27@gmai.com"
@@ -127,7 +132,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="tel:+421907961609"
