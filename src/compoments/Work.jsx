@@ -1,7 +1,7 @@
 import React from "react";
 import timisCooking from "../assets/timis-cooking.png";
 import medicPage from "../assets/medic-page.png";
-import mobis from "../assets/mobis.png";
+import mobis from "../assets/mobis-page.png";
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 ">
