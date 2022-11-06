@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen home-bg">
       {/*Container*/}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
+      <div
+        data-aos="zoom-in"
+        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full "
+      >
         <p className=" text-gray-300 text-2xl">Hi my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#F6ECCC]">
           Ľubomír Bučko
