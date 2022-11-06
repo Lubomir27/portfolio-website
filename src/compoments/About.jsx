@@ -13,10 +13,10 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
+          <div data-aos="fade-up" className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Ľubo, nice to meet you. Please take a look around.</p>
           </div>
-          <div>
+          <div data-aos="fade-down">
             <p>
               I am passionate about building excellent UX/UI that improves the
               lives of those around me. I specialize in creating software for
