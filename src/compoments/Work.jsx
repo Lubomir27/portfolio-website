@@ -28,7 +28,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2  gap-y-6 gap-x-4">
+        <div className="grid sm:grid-cols-2  gap-8">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${timisCooking})` }}
