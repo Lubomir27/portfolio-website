@@ -1,6 +1,6 @@
 import React from "react";
 import timisCooking from "../assets/timis.png";
-import medicPage from "../assets/medic-page.png";
+import stavky from "../assets/stavky.png";
 import mobis from "../assets/mobis-page.png";
 import yama from "../assets/yama.png";
 const Work = () => {
@@ -125,6 +125,37 @@ const Work = () => {
             <p className="py-2">
               <strong className="text-pink-600">Used Technology: </strong>React
               / Javascript / Typescript / Firebase / Bootstrap
+            </p>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${stavky})` }}
+            className="order-7 sm:order-8  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Betting Types
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://www.stavkoveporadenstvo.sk/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-8 sm:order-7 ">
+            <p>
+              Project for a <strong className="text-pink-600">forex</strong> and{" "}
+              <strong className="text-pink-600">betting</strong> consulting
+              client, the most interesting thing about this project is that it
+              is two almost identical pages and they are all both from one
+              folder using ternary operators (ES6)
+            </p>
+            <p className="py-2">
+              <strong className="text-pink-600">Used Technology: </strong>React
+              / Javascript / Typescript / Bootstrap
             </p>
           </div>
         </div>
